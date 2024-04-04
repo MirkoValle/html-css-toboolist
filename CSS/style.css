@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     background-color: #f6f8f9;
     font-family: Arial, Helvetica, sans-serif;
@@ -25,6 +24,7 @@ img {
 h1 {
     font-size: 2.5rem;
     display: inline;
+    font-weight: 700;
 }
 
 main {
@@ -48,6 +48,7 @@ button {
     border: none;
     padding: .4rem .5rem;
     border-radius: 6px;
+    color: white;
 }
 
 .transparent {
@@ -58,4 +59,79 @@ button {
     font-weight: 500;
 }
 
-.label {}
+section {
+    border-radius: 0 0 6px 6px;
+}
+
+ul {
+    list-style-type: "▼";
+    padding: 1rem;
+}
+
+h2 {
+    font-size: 20px;
+    padding-top: 1rem;
+}
+
+p {
+    padding: .5rem;
+}
+
+.label {
+    color: white;
+    font-size: 10px;
+    padding: .35rem;
+    border-radius: 16px;
+}
+
+#azzurro {
+    background-color: #44aaea;
+}
+
+#viola {
+    background-color: #9c72e3;
+}
+
+#verdino {
+    background-color: #62bfa7;
+}
+
+#arancione {
+    background-color: #f29d32;
+}
+
+#rosa {
+    background-color: #d863a1;
+}
+
+#verde-pisello {
+    background-color: #b0c926;
+}
+
+.check {
+    color: #58baa2;
+    border: 1px solid #58baa2;
+    border-radius: 50%;
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    text-align: center;
+    padding: .20rem;
+    margin-right: .5rem;
+    line-height: 10px;
+    font-size: .8rem;
+}
+
+.cross {
+    color: #ea5d56;
+    border: 1px solid #ea5d56;
+    border-radius: 50%;
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    text-align: center;
+    padding: .20rem;
+    margin-right: .5rem;
+    line-height: 10px;
+    font-size: .8rem;
+}
