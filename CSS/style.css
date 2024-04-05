@@ -63,18 +63,15 @@ section {
     border-radius: 0 0 6px 6px;
 }
 
-ul {
-    list-style-type: "▼";
-    padding: 1rem;
+
+li {
+    padding: .5rem;
+    list-style: none;
 }
 
 h2 {
     font-size: 20px;
     padding-top: 1rem;
-}
-
-p {
-    padding: .5rem;
 }
 
 .label {
@@ -108,9 +105,8 @@ p {
     background-color: #b0c926;
 }
 
-.check {
-    color: #58baa2;
-    border: 1px solid #58baa2;
+.circle {
+    border: 1px solid;
     border-radius: 50%;
     display: inline-block;
     width: 1.2rem;
@@ -122,16 +118,16 @@ p {
     font-size: .8rem;
 }
 
+.check {
+    color: #58baa2;
+    border-color: #58baa2;
+}
+
 .cross {
     color: #ea5d56;
-    border: 1px solid #ea5d56;
-    border-radius: 50%;
-    display: inline-block;
-    width: 1.2rem;
-    height: 1.2rem;
-    text-align: center;
-    padding: .20rem;
-    margin-right: .5rem;
-    line-height: 10px;
-    font-size: .8rem;
+    border-color: #ea5d56;
+}
+
+span {
+    padding: .3rem;
 }
